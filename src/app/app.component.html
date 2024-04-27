@@ -1,0 +1,15 @@
+<app-user />
+<!-- cuando se termina de cargar -->
+@defer (on viewport) {
+    <div>
+        <app-comentarios></app-comentarios>
+    </div>
+    <!-- cuando no esta cargando -->
+} @placeholder {
+    <p>.</p>
+    <!-- cuando esta cargando -->
+} @loading (minimum 1s){
+    <p>Futuros Comentarios</p>
+
+}
+<router-outlet></router-outlet>

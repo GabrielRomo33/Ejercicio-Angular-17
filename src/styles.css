@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    color-scheme: light dark;
+  }
+
+  div{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-size: 24px;
+  }
